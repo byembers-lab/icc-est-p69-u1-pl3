@@ -79,7 +79,7 @@ public class Incidente implements Comparable<Incidente> {
             )
             .thenComparing(Incidente::getRegistradoEn)
             .thenComparing(Incidente::getCodigo, String.CASE_INSENSITIVE_ORDER);
-
+            //prueba de push con docker
         return comparador.compare(this, otro);
    }
 
